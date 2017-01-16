@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sandyz.fragmentassignment1.Simple_Addition">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the valu here"
+        android:inputType="number"
+
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:text="Submit"
+        />
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:id="@+id/textview"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:textColor="?android:attr/fastScrollTextColor"
+        />
+
+
+</FrameLayout>
